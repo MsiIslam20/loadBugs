@@ -222,6 +222,9 @@ html{
                 &.f_3{
                     color: #B3D866;
                 }
+                &.f_4{
+                    color: #48AAFF;
+                }                
             }
             h2{
                 font-family: "Gilroy-Medium.ttf";
@@ -249,16 +252,20 @@ html{
                 }  
                 &.i-3{
                     background: rgba(179, 216, 102, 0.1);
-                }                        
+                } 
+                &.i-4{
+                    background: rgba(72, 170, 255, 0.1);
+                }                                         
              }
             p{
                 font-family: "Gilroy-Medium.ttf";
                 font-style: normal;
                 font-weight: 500;
-                font-size: 20px;
+                font-size: 21px;
                 line-height: 39px;
                 letter-spacing: -0.656526px;
                 color: #6E7884;
+                max-width: 92%;
             }
         }
     }

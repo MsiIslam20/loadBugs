@@ -1172,6 +1172,10 @@ html {
   color: #B3D866;
 }
 
+.loadBugFeature .feature-inner .feature-details h6.f_4 {
+  color: #48AAFF;
+}
+
 .loadBugFeature .feature-inner .feature-details h2 {
   font-family: "Gilroy-Medium.ttf";
   font-weight: 600;
@@ -1206,13 +1210,18 @@ html {
   background: rgba(179, 216, 102, 0.1);
 }
 
+.loadBugFeature .feature-inner .feature-details .icon.i-4 {
+  background: rgba(72, 170, 255, 0.1);
+}
+
 .loadBugFeature .feature-inner .feature-details p {
   font-family: "Gilroy-Medium.ttf";
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 21px;
   line-height: 39px;
   letter-spacing: -0.656526px;
   color: #6E7884;
+  max-width: 92%;
 }
 /*# sourceMappingURL=styles.css.map */
