@@ -224,7 +224,10 @@ html{
                 }
                 &.f_4{
                     color: #48AAFF;
-                }                
+                }  
+                &.f_5{
+                    color: #12B886;
+                }                              
             }
             h2{
                 font-family: "Gilroy-Medium.ttf";
@@ -255,7 +258,10 @@ html{
                 } 
                 &.i-4{
                     background: rgba(72, 170, 255, 0.1);
-                }                                         
+                }  
+                &.i-5{
+                    background: rgba(18, 184, 134, 0.1);
+                }                                                       
              }
             p{
                 font-family: "Gilroy-Medium.ttf";
@@ -266,6 +272,67 @@ html{
                 letter-spacing: -0.656526px;
                 color: #6E7884;
                 max-width: 92%;
+            }
+        }
+    }
+}
+
+//Load Bugs Join
+.loadBugJoin{
+    margin-bottom: 40px;
+    .join-inner{
+        .join-details{
+            h3{
+                font-style: normal;
+                font-weight: 600;
+                font-size: 50px;
+                line-height: 55px;
+                color: #010101;
+                margin-bottom: 40px;
+            }
+            p{
+                font-family: "Gilroy-Medium.ttf";
+                font-weight: 500;
+                font-size: 21px;
+                line-height: 39px;
+                letter-spacing: -0.656526px;
+                color: #6E7884;
+                margin-bottom: 30px;
+                max-width: 80%;
+            }
+            .check-btn{
+                font-family: "Gilroy-Bold.ttf";
+                background: #08C6D2;
+                border-radius: 10px;
+                box-shadow: none;
+                font-weight: bold;
+                font-size: 18px;
+                line-height: 34px;
+                color: #FFFFFF;   
+                border: solid 2px #08C6D2;
+                transition: all .3s;
+                padding: 20px 50px;    
+                &:hover{
+                    background: #fff;
+                    border: solid 2px #08C6D2;
+                    color: #212A54;
+                }         
+            }
+        }
+        .join-feedback{
+            float: right;
+            .feedback-1{
+                margin-bottom: 35px;
+            }
+            .feedback-3{
+                padding-top: 30px;
+                h4{
+                    margin-left: 16px;
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 25px;
+                    color: #000000;
+                }
             }
         }
     }
