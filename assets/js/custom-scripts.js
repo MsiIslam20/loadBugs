@@ -38,6 +38,45 @@
           }
       });
 
+      var owl = $('#testimonial');
+    owl.owlCarousel({
+        items:4,
+        loop:true,
+        margin:20,
+        autoplay:true,
+        autoWidth:true,
+        smartSpeed: 800,
+        autoplayTimeout:1000,
+        animateIn: 'fadeIn',
+        animateOut: 'fadeOut',
+        autoplayHoverPause:false
+    });
+    // $('#testimonial').owlCarousel({
+    //     loop: true,
+    //     responsiveClass: true,
+    //     nav: false,
+    //     autoplay: true,
+    //     smartSpeed: 500,
+    //     // navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
+    //     margin: 20,
+    //     items:1,
+    //     dots: false,
+    //     animateIn: 'slideInRight',
+    //     animateOut: 'slideOutLeft',
+    //     mouseDrag: false,
+    //     touchDrag: false,
+    //     responsive: {
+    //         0: {
+    //             // navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
+    //         },
+    //         768: {
+    //         },
+    //         1170: {
+    //             items: 1,
+    //         }
+    //     }
+    // });
+
 
             // var mySplitText = new SplitText("#qoute h1", {type:"words,chars"}), 
             // chars = mySplitText.chars;

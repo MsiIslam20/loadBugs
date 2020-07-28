@@ -1298,4 +1298,13 @@ html {
   line-height: 25px;
   color: #000000;
 }
+
+.testimonial {
+  padding-bottom: 150px;
+}
+
+.testimonial img {
+  max-width: 100% !important;
+  width: auto !important;
+}
 /*# sourceMappingURL=styles.css.map */
