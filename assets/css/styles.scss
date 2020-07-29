@@ -337,11 +337,135 @@ html{
         }
     }
 }
-
+//testimonail
 .testimonial{
     padding-bottom: 150px;
     img{
         max-width: 100% !important;
         width: auto !important;
+    }
+}
+
+//Footer Section
+.footer{
+    background: #F4FCFF;
+    .footer-inner{
+        .footer-details{
+            margin-top: 100px;
+            padding-bottom: 130px;
+            p{
+                font-style: normal;
+                font-weight: 600;
+                font-size: 12px;
+                line-height: 20px;
+                color: #6E7884;
+                max-width: 30%;
+                margin-top: 20px;
+                margin-bottom: 48px;
+            }
+            .social{
+                h6{
+                    font-family: "Gilroy-Bold.ttf";
+                    font-weight: bold;
+                    font-size: 14px;
+                    line-height: 17px;
+                    color: #6E7884;
+                    margin-bottom: 15px;
+                }
+                ul{
+                    li{
+                        display: inline-block;
+                        a{
+                            width: 48px;
+                            height: 48px;
+                            border: 1.5px solid rgba(14, 40, 63, .3);
+                            box-sizing: border-box;
+                            border-radius: 14px;
+                            display: grid;
+                            place-items: center;
+                            margin-right: 20px;
+                            font-size: 18px;
+                            color: #0E283F;
+                            transition: all .3s;
+                            &:hover{
+                                color: #fff;
+                                background: #08C6D2;
+                                border: 1.5px solid #08C6D2;
+                                box-shadow: 0px 18.973px 25px rgba(0, 255, 247, 0.14)
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .footer-submit{
+            margin-top: 100px;
+            h3{
+                font-family: "Gilroy-Medium.ttf";
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 100%;
+                color: #010101;
+                margin-bottom: 28px;
+            }
+            .form-area{
+                display: flex;
+                .form-control{
+                    background: #FFFFFF;
+                    border-radius: 10px;
+                    box-shadow: none;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 15px;
+                    line-height: 17px;
+                    color: #B3B8BF;
+                    padding: 21px 22px;
+                    max-width: 313px;
+                    height: 60px;
+                    margin-right: 10px;
+                }
+                .check-btn{
+                    font-family: "Gilroy-Bold.ttf";
+                    background: #08C6D2;
+                    border-radius: 10px;
+                    box-shadow: none;
+                    font-weight: bold;
+                    font-size: 15px;
+                    line-height: 18px;
+                    color: #FFFFFF;   
+                    border: solid 2px #08C6D2;
+                    transition: all .3s;
+                    padding: 20px 35px;  
+                    max-height: 60px;  
+                    &:hover{
+                        background: #fff;
+                        border: solid 2px #08C6D2;
+                        color: #212A54;
+                    }         
+                }
+            }
+        }
+    }
+}
+.copyright{
+    padding-bottom: 50px;
+    .copy-inner{
+        h5{
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 17px;
+            color: #6E7884;
+            margin-bottom: 0;
+            margin-left: 15px;
+        }
+    }
+    p{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        color: #6E7884;
+        margin-bottom: 0;
+        margin-top: 30px;
     }
 }
