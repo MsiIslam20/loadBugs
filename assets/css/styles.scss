@@ -337,11 +337,76 @@ html{
         }
     }
 }
-
+//testimonail
 .testimonial{
     padding-bottom: 150px;
     img{
         max-width: 100% !important;
         width: auto !important;
+    }
+}
+
+//Footer Section
+.footer{
+    background: #F4FCFF;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    .footer-inner{
+        .footer-details{
+            p{
+                font-style: normal;
+                font-weight: 600;
+                font-size: 12px;
+                line-height: 20px;
+                color: #6E7884;
+                max-width: 40%;
+                margin-top: 20px;
+                margin-bottom: 48px;
+            }
+            .social{
+                h6{
+                    font-family: "Gilroy-Bold.ttf";
+                    font-weight: bold;
+                    font-size: 14px;
+                    line-height: 17px;
+                    color: #6E7884;
+                    margin-bottom: 15px;
+                }
+                ul{
+                    li{
+                        display: inline-block;
+                        a{
+                            width: 48px;
+                            height: 48px;
+                            border: 1.5px solid rgba(14, 40, 63, .3);
+                            box-sizing: border-box;
+                            border-radius: 14px;
+                            display: grid;
+                            place-items: center;
+                            margin-right: 20px;
+                            font-size: 18px;
+                            color: #0E283F;
+                            transition: all .3s;
+                            &:hover{
+                                color: #fff;
+                                background: #08C6D2;
+                                border: 1.5px solid #08C6D2;
+                                box-shadow: 0px 18.973px 25px rgba(0, 255, 247, 0.14)
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .footer-submit{
+            h3{
+                font-family: "Gilroy-Medium.ttf";
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 100%;
+                color: #010101;
+                margin-bottom: 28px;
+            }
+        }
     }
 }
