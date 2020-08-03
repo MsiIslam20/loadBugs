@@ -127,44 +127,7 @@
     //             items: 1,
     //         }
     //     }
-    // });
-
-    // $('#togglor-carousel-2').owlCarousel({
-    //     loop: true,
-    //     responsiveClass: true,
-    //     nav: false,
-    //     autoplay: true,
-    //     smartSpeed: 500,
-    //     // navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
-    //     margin: 20,
-    //     items:1,
-    //     dots: true,
-    //     animateIn: 'fadeIn',
-    //     animateOut: 'fadeOut',
-    //     mouseDrag: false,
-    //     touchDrag: false,
-    //     responsive: {
-    //         0: {
-    //             mouseDrag: true,
-    //             touchDrag: true,
-    //             animateIn: 'slideInRight',
-    //             animateOut: 'slideOutLeft',
-    //             autoplay: false,
-    //             // nav: true,
-    //             // navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
-    //         },
-    //         768: {
-    //             mouseDrag: true,
-    //             touchDrag: true,
-    //             animateIn: 'slideInRight',
-    //             animateOut: 'slideOutLeft',
-    //             autoplay: false,
-    //         },
-    //         1170: {
-    //             items: 1,
-    //         }
-    //     }
-    // });    
+    // });   
 
 
 
